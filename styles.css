@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 280px;
+  margin-top: 50px;
+}
+
+.character-container {
+  display: flex;
+  justify-content: space-around;
+}
+h1,
+h3,
+h4 {
+  text-align: center;
+}
