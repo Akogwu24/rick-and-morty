@@ -6,6 +6,7 @@
 body {
   width: 100%;
   background-color: rgba(143, 158, 162, 0.31);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -17,6 +18,9 @@ img {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.character {
+  margin: 0 10px;
+}
 h1,
 h3,
 h4 {
@@ -26,4 +30,10 @@ h1 {
   font-size: 4em;
   padding: 30px 0;
   color: rgb(27, 46, 85);
+  font-variant: small-caps;
+}
+
+h4 {
+  margin-bottom: 25px;
+  font-style: oblique;
 }

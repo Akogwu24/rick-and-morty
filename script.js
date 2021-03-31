@@ -6,15 +6,11 @@ const getCharacter = async () => {
   return character;
 };
 
-console.log(getCharacter());
 const characterContainer = document.querySelector('.character-container');
 
 window.addEventListener('load', async () => {
   const data = await getCharacter();
-
   const characterData = data.results;
-  console.log(characterData);
-
   characterData.map((character) => {
     characterContainer.innerHTML += `
       <div class="character">
